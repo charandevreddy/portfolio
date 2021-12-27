@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top,#9600FF,#AEBAF8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    color: #9600FF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    opacity: 0.8;
+}
+h2{
+    color: #9600FF;
+    font-weight: 600;
+    opacity: 0.8;
+}
+h3{
+    color: #9600FF;
+    font-weight: 600;
+    opacity: 0.8;
+}
+#a{
+    color: rgb(255,255,255);
+    font-weight: 600;
+}
+.glass{
+    background:white;
+    min-height: 80vh;
+    width: 60% ;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius:1rem;
+    z-index: 3;
+    backdrop-filter: blur(1rem);
+    display: flex;
+}
+.triangle1,.triangle2{
+    background:white;
+    
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 40%;
+    
+}
+.triangle1{
+    top: 5%;
+    left: 15%;
+    background: linear-gradient(to left top, rgba(255,255,255,1),rgba(255,255,255,0.5));
+}
+.triangle2{
+    bottom: 5%;
+    right: 15%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,1),rgba(255,255,255,0.5));
+    
+}
+.avatar{
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+.icons{
+    width:50px;
+    height:50px;
+
+}
+.badges{
+    width:50px;
+    height:50px;
+}
+.dashboard{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align:center;
+    background: linear-gradient(to right bottom, rgba(255,255,255,1),rgba(255,255,255,0.4));
+    border-radius: 1rem;
+}
+.portfolio{
+    flex:3;
+    display:flex;
+    flex-direction: column;
+    margin: 3rem;
+    justify-content: space-evenly;
+}
+.link{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 2rem;
+    padding: 0.2rem 3rem;
+    
+}
+.link > h3{
+    padding: 0rem 2rem;
+}
+.connection{
+    background: linear-gradient(to left bottom,#9600FF,#e100ff);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+.aboutme{
+    margin-bottom: 2rem;
+}
+.card{
+    display: flex;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.2),rgba(255,255,255,0.6));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 0.8rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
+    justify-content: space-between;
+}
+.progress1{
+    background: linear-gradient(to left bottom,#9600FF,#e100ff);
+    width: 100%;
+    height: 20%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.progress1::after {
+    content:"";
+    width:100%;
+    height:100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 65%;
+}
+.progress2{
+    background: linear-gradient(to left bottom,#9600FF,#e100ff);
+    width: 100%;
+    height: 20%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.progress2::after {
+    content:"";
+    width:100%;
+    height:100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 50%;
+}
+.progress3{
+    background: linear-gradient(to left bottom,#9600FF,#e100ff);
+    width: 100%;
+    height: 20%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.progress3::after {
+    content:"";
+    width:100%;
+    height:100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 30%;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+   
